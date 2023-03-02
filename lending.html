@@ -8,63 +8,310 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="header_main">
-        <div class="main_container">
-            <div class="main_content">
-                <nav class="header__nav">
-                    <div class="nav__sections">
-                        <ul class="sections">
-                            <li class="sections_item"><a href="#">Home</a></li>
-                            <li class="sections_item"><a href="#">Case Studies</a></li>
-                            <li class="sections_item"><a href="#">Testimonials</a></li>
-                            <li class="sections_item"><a href="#">Recent work</a></li>
-                            <li class="sections_item"><a href="#">Get In Touch</a></li>
+    <section class="home">
+        <header class="header_main">
+            <div class="main_container">
+                <div class="main_content">
+                    <nav class="header__nav">
+                        <div class="nav__sections">
+                            <ul class="sections">
+                                <li class="sections_item"><a href="#">Home</a></li>
+                                <li class="sections_item"><a href="#case_studies">Case Studies</a></li>
+                                <li class="sections_item"><a href="#testimonials">Testimonials</a></li>
+                                <li class="sections_item"><a href="#">Recent work</a></li>
+                                <li class="sections_item"><a href="#">Get In Touch</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="nav__social">
+                        <ul class="social">
+                            <li class="social_item"><a href=""><img src="resourses/header/LinkedIn.png" alt=""></a></li>
+                            <li class="social_item"><a href=""><img src="resourses/header/Behance.png" alt=""></a></li>
+                            <li class="social_item"><a href=""><img src="resourses/header/Twitter.png" alt=""></a></li>
                         </ul>
                     </div>
-                </nav>
-                <div class="nav__social">
-                    <ul class="social">
-                        <li class="social_item"><a href=""><img src="resourses/header/LinkedIn.png" alt=""></a></li>
-                        <li class="social_item"><a href=""><img src="resourses/header/Behance.png" alt=""></a></li>
-                        <li class="social_item"><a href=""><img src="resourses/header/Twitter.png" alt=""></a></li>
-                    </ul>
                 </div>
             </div>
-        </div>
-    </header>
-    <section class="main_profile">
-        <div class="main_container">
-            <div class="main_content">
-                <div class="info">
-                    <h1 class="info__h1">Your Name Here</h1>
-                    <p class="info__text">
-                        Intro text: Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor
-                        incididunt ut <br> labore et dolore magna aliqua.
-                    </p>
-                    <button class="info__button">
-                        Let’s get started <img class="arrow" src="resourses/profile/button/vector.png" alt="">
-                    </button>
-                </div>
-                <div class="profile__photo">
-                    <img src="resourses/profile/profile.jpg" alt="">
+        </header>
+        <section class="main_profile">
+            <div class="main_container">
+                <div class="main_content">
+                    <div class="info">
+                        <h1 class="info__h1">Your Name Here</h1>
+                        <p class="info__text">
+                            Intro text: Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor
+                            incididunt ut <br> labore et dolore magna aliqua.
+                        </p>
+                        <button class="info__button">
+                            Let’s get started <img class="arrow" src="resourses/profile/button/vector.png" alt="">
+                        </button>
+                    </div>
+                    <div class="profile__photo">
+                        <img src="resourses/profile/profile.jpg" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <footer class="header_footer">
+            <div class="main_container">
+                <div class="footer_content">
+                    <div class="title"><p>Worked with</p></div>
+                    <div class="partners">
+                        <div class="partners_name"><a href=""><img src="resourses/footer/clickup.png" alt="" srcset=""></a></div>
+                        <div class="partners_name"><a href=""><img src="resourses/footer/dropbox.png" alt="" srcset=""></a></div>
+                        <div class="partners_name"><a href=""><img src="resourses/footer/paychex.png" alt="" srcset=""></a></div>
+                        <div class="partners_name"><a href=""><img src="resourses/footer/elastic.png" alt="" srcset=""></a></div>
+                        <div class="partners_name"><a href=""><img src="resourses/footer/stripe.png"  alt="" srcset=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <section class="case_studies" id ="case_studies">
+            <div class="case_studies_container">
+                <div class="case_studies_content">
+                    <div class="case_studies_head">
+                        <div class="case_studies_title">
+                            <h1>Case Studies</h1>
+                        </div>
+                        <div class="case_studies_text">
+                            <p>Solving user & business problems since last 15+ years.<br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do <br>
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="works">
+                        <div class="work">
+                            <div class="work_info">
+                                <div class="tag">
+                                    <div class="name_tag">
+                                        <p>Fintech</p>
+                                    </div>
+                                </div>
+                                <h1 class="work__h1">Work name here</h1>
+                                <p class="work__text">
+                                    Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <button class="work__button">
+                                    View case study <img class="arrow" src="resourses/profile/button/vector.png" alt="">
+                                </button>
+                            </div>
+                            <div class="work__photo">
+                                <img src="resourses/cases/case1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="work_info">
+                                <div class="tag">
+                                    <div class="name_tag">
+                                        <p>EdTech</p>
+                                    </div>
+                                </div>
+                                <h1 class="work__h1">Work name here</h1>
+                            <p class="work__text">
+                                Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <button class="work__button">
+                                View case study <img class="arrow" src="resourses/profile/button/vector.png" alt="">
+                            </button>
+                            </div>
+                            <div class="work__photo">
+                                <img src="resourses/cases/case2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="work">
+                            <div class="work_info">
+                                <div class="tag">
+                                    <div class="name_tag">
+                                        <p>Pharma</p>
+                                    </div>
+                                </div>
+                                <h1>Work name here</h1>
+                                <p class="work__text">
+                                    Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            <button class="work__button">
+                                View case study <img class="arrow" src="resourses/profile/button/vector.png" alt="">
+                            </button>
+                            </div>
+                            <div class="work__photo">
+                                <img src="resourses/cases/case3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <footer class="main_footer">
-        <div class="main_container">
-            <div class="footer_content">
-                <div class="title"><p>Worked with</p></div>
-                <div class="partners">
-                    <div class="partners_name"><a href=""><img src="resourses/footer/clickup.png" alt="" srcset=""></a></div>
-                    <div class="partners_name"><a href=""><img src="resourses/footer/dropbox.png" alt="" srcset=""></a></div>
-                    <div class="partners_name"><a href=""><img src="resourses/footer/paychex.png" alt="" srcset=""></a></div>
-                    <div class="partners_name"><a href=""><img src="resourses/footer/elastic.png" alt="" srcset=""></a></div>
-                    <div class="partners_name"><a href=""><img src="resourses/footer/stripe.png"  alt="" srcset=""></a></div>
+    <section class="testimonials" id = "testimonials">
+        <div class="testimonials_container">
+            <div class="testimonials_content">
+                <div class="testimonials_head">
+                    <div class="testimonials_title">
+                        <h1>Testimonials</h1>
+                    </div>
+                    <div class="testimonials_text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonials_card">
+                    <div class="card">
+                        <div class="card_content">
+                            <div class="card_info">
+                                <div class="card_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                </div>
+                                <div class="card_client">
+                                    <div class="client_photo">
+                                        <img src="resourses/clients/Client photo 1.png" alt="">
+                                    </div>
+                                    <div class="client_name">
+                                        <h1>Client Name</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_content">
+                            <div class="card_info">
+                                <div class="card_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                </div>
+                                <div class="card_client">
+                                    <div class="client_photo">
+                                        <img src="resourses/clients/Client photo 2.png" alt="">
+                                    </div>
+                                    <div class="client_name">
+                                        <h1>Client Name</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_content">
+                            <div class="card_info">
+                                <div class="card_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                </div>
+                                <div class="card_client">
+                                    <div class="client_photo">
+                                        <img src="resourses/clients/Client photo 3.png" alt="">
+                                    </div>
+                                    <div class="client_name">
+                                        <h1>Client Name</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_content">
+                            <div class="card_info">
+                                <div class="card_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                </div>
+                                <div class="card_client">
+                                    <div class="client_photo">
+                                        <img src="resourses/clients/Client photo 4.png" alt="">
+                                    </div>
+                                    <div class="client_name">
+                                        <h1>Client Name</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
+    <section class="recent_work">
+        <div class="recent_work_container">
+            <div class="recent_work_content">
+                <div class="recent_work_head">
+                    <div class="recent_work_title">
+                        <h1>Recent Work</h1>
+                    </div>
+                    <div class="recent_work_text">
+                       <p>
+                        Solving user & business problems since last 15+ years.<br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do <br>
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                       </p>
+                    </div>
+                </div>
+                <div class="recent_works_cards">
+                    <div class="work_card">
+                        <div class="work_pictures">
+                            <img src="resourses/works/work1.png" alt="">
+                        </div>
+                        <div class="work_title">
+                            <h1>Work name here</h1>
+                        </div>
+                        <div class="work_text">
+                            <p>Labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                        <div class="work_button">
+                            <button>Know more <img class="arrow" src="resourses/profile/button/vector.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="work_card">
+                        <div class="work_pictures">
+                            <img src="resourses/works/work2.png" alt="">
+                        </div>
+                        <div class="work_title">
+                            <h1>Work name here</h1>
+                        </div>
+                        <div class="work_text">
+                            <p>Rempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt u</p>
+                        </div>
+                        <div class="work_button">
+                            <button>Know more <img class="arrow" src="resourses/profile/button/vector.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get_in_touch">
+            <div class="get_in_touch_container">
+                <div class="get_in_touch_content">
+                    <div class="get_in_touch_head">
+                        <div class="get_in_touch_title">
+                            <h1>Get In Touch</h1>
+                        </div>
+                        <div class="get_in_touch_text">
+                           <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                             eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+                           </p>
+                        </div>
+                    </div>
+                    <div class="get_in_touch_form">
+                        <div class ="input_email">
+                            <p>Email</p>
+                            <input type="text" placeholder="Please enter your email">
+                        </div>
+                        <div class ="input_mobile">
+                            <p>Mobile</p>
+                            <input type="text" placeholder="Enter mobile">
+                        </div>
+                        <div class ="input_message">
+                            <p>Message</p>
+                            <input type="text" placeholder="Enter your message">
+                        </div>
+                        <div class="submit_button">
+                            <button>Submit <img class="arrow" src="resourses/profile/button/vector.png" alt=""> </button>
+                        </div>
+                    </div>
+    </section>
 </body>
 </html>
