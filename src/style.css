@@ -34,7 +34,7 @@ a {
 }
 
 .main_container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 95px;
 }
@@ -256,6 +256,7 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .work:nth-child(2) {
@@ -429,6 +430,7 @@ button:hover {
 }
 
 .card {
+    position: relative;
     mask: initial;
     border: 1px solid;
     border-image-source: linear-gradient(
@@ -445,6 +447,18 @@ button:hover {
     margin: 30px auto;
     grid-gap: 69px;
     display: grid;
+}
+
+.card::before{
+    content: '';
+    color: white;
+    position: absolute;
+    top: -12px;
+    z-index: 3;
+    left: 10px;
+    width: 32px;
+    height: 117px;
+    background: url("../resourses/clients/tilt.png") no-repeat;
 }
 
 .testimonials_content {
@@ -530,6 +544,13 @@ button:hover {
 .recent_works_cards {
     margin-top: 60px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work_card{
+    width: 445px;
+    height: 494px;
 }
 
 .work_title {
@@ -778,4 +799,30 @@ button:hover {
         max-width: 300px;
         max-height: 200px;
     }
+}
+
+.workers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arro-left{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px gray solid;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.arro-right{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px gray solid;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
